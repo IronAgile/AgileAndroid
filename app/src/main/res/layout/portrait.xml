@@ -20,6 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/societe"
             android:hint="soci "/>
     </LinearLayout>
 
@@ -34,6 +35,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/nom"
             android:hint="nom "/>
     </LinearLayout>
     <LinearLayout
@@ -47,6 +49,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/prenom"
             android:hint="prenom "/>
     </LinearLayout>
 
