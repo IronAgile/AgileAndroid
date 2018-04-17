@@ -2,6 +2,7 @@ package com.example.digo.androidagile;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,10 @@ public class Portrait extends Fragment {
     private TextView nom;
     private TextView prenom;
 
+    public static Portrait newInstance() {
+        return new Portrait();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -29,4 +34,15 @@ public class Portrait extends Fragment {
 
         return myFragmentView;
     }
+
+
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+
+        super.onViewCreated(view, savedInstanceState);
+
+    }
 }
+
+
